@@ -9,3 +9,7 @@ proc-macro = true
 [dependencies]
 syn = "2.0.52"
 quote = "1.0.35"
+
+[dependencies.telegram_bots_api]
+path = "../telegram_bots_api"
+features = []
